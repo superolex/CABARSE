@@ -1,0 +1,90 @@
+body{
+    margin: 10px;
+    background: linear-gradient(rgba(207, 203, 209, 0.384), rgba(17, 7, 7, 0.733));;
+}
+.formbox{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+.call{
+    margin-left: 5px;
+}
+.nav{
+    width: 100%;
+    margin: auto;
+}
+.nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+}
+li a{
+    list-style: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(210, 155, 45);
+    text-shadow:  3px 3px rgba(0,0,0,0.6);
+    transition: 0.3s ease-in-out;
+}
+li{
+    border-radius: 5px;
+    padding: 4px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.6);
+    background: linear-gradient(rgba(108, 14, 175, 0.384), rgba(176, 25, 25, 0.733));
+    transition: 0.3s ease-in-out;
+}
+.titlebar{
+    text-align: center;
+}
+.message{
+    border: 1px solid;
+    margin: 30px auto auto auto;
+    box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.6);
+    border-radius: 3px;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(90, 90, 90, 0.733));;;
+}
+.messagebox{
+    justify-content: center;
+    display: flex;
+}
+.call{
+    background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(135, 134, 134, 0.733));
+    border: 1px solid ;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+}
+.usarname{
+    display: flex;
+    justify-content: center;
+}
+.sendbutton{
+    margin: 20px 250px auto 250px;
+}
+button{
+    width: 100px;
+    height: 60px;
+    border: solid 1px;
+    border-radius: 3px;
+    -webkit-text-fill-color: black;
+    font-size: 30px;
+    font-family: Arial;
+    background: linear-gradient(rgba(0, 0, 0, 0.384), rgba(176, 25, 25, 0.733));
+    box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.6);
+    transition: 2s ease-in-out;
+}
+.formbox{
+    border: solid 1px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px 2px rgba(0,0,0,0.6);
+}
+ li:hover{
+    background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(0, 0, 0, 0.733));
+}
+button:hover{
+    background: linear-gradient(rgba(255, 255, 255, 0.384), rgba(34, 42, 164, 0.733));
+}

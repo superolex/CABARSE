@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="icon" href="images/logobg.png">
+    <title>Anime Fandom</title>
+</head>
+<script>
+    
+    function showAlert() {
+        alert("This action is still work on progress.");
+    }
+    function sendMessage() {
+        alert('Your feedback has been sent to ...?!');
+    }
+</script>
+<body>
+    <div class="titlebar">
+        <h1 class="title" style="color:orange; text-shadow: 2px 2px 2px rgba(0,0,0,0.7);">Form</h1>
+    </div>
+    <div class="nav">
+        <ul>
+            <li> <a href="index.html">HOME</a></li>
+            <li> <a onclick="showAlert()" href="#">SUPPORT</a></li>
+            <li> <a href="#">FORM</a></li>
+            <li> <a href="#">COMMUNITY</a></li>
+        </ul>
+    </div>
+    <section>
+        <form action="#" method="post">
+            <fieldset class="formbox">
+                <legend style="font-size: 20px; font-weight: bold;">SEND ACONCERN </legend>
+                <div class="usarname">
+                    <label for="username">What would you like us to call you?</label>
+                    <input required class="call" type="text"
+                      name="username"  id="username" type="text" placeholder="Enter name">
+                </div>
+                <div class="messagebox">
+                    <textarea name="comment" id="comment" class="message"
+                      placeholder="Maximum of 300 letters"></textarea>
+                </div>
+                <div class="sendbutton">
+                    <button  onclick="sendMessage()" type="submit" value="submit">SEND</button>
+
+                </div>
+            </fieldset>
+        </form>     
+    </section>
+</body>
+
+</html>
